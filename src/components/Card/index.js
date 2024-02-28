@@ -55,7 +55,7 @@ function Card({
               alt="Unlicked"
             />
           </div>)}
-          <img width={133} height={112} src={imageUrl} alt="" />
+          <img width={133} height={112} src={obj.imageUrl} alt="" />
           <h5>{title}</h5>
           <div className="d-flex justify-between align-center">
             <div className="d-flex flex-column">
